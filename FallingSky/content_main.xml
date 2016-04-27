@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id= "@+id/linearlayout1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|fill_vertical"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="top"
+            android:text="Start"
+            android:textSize="36sp"
+            android:onClick="gameStart"
+            android:background="@color/green"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:textColor="@color/black"
+            android:gravity="right"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <com.egames.drawing.MyGLSurfaceView
+        android:id="@+id/glSurfaceViewID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23" />
+
+</LinearLayout>

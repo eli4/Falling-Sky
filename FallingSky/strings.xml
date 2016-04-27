@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">drawing</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+
+    <string name="game_over">Game Over</string>
+    <string name="close">Close</string>
+    <string name="try_again"> Try Again </string>
+</resources>
